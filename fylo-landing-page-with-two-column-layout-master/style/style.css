@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+:focus {
+    outline: none;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 6%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    color: hsl(268, 92%, 25%);
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+.row-paragraph3{
+    width: 100%;
+    display: flex;
+}
+.col-1 {
+    margin: 6% 3% 3% 6%;
+}
+
+h1 {
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-right: 40%;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.input-button {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.input-button input {
+    width: 45%;
+    height: 4.5vh;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.input-button-2 input {
+    width: 70%;
+    height: 5vh;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgb(66, 66, 66);
+}
+
+.getstarted {
+    margin-left: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 5px;
+    width: 15rem;
+    color: white;
+    cursor: pointer;
+    background-color: hsl(224, 92%, 75%);
+    box-shadow: 1px 5px 15px rgb(204, 204, 204);
+}
+
+.img-show img {
+    display: flex;
+    height: 60vh;
+}
+
+.curve-desktop img {
+    width: 100%;
+    margin-top: 8rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.paragraph2 {
+    height: 90vh;
+    background-color: hsl(240, 33%, 98%);
+}
+
+.text-para2 {
+    margin-right: 20%;
+}
+
+.text-para2 p {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.text-para2 a {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(175, 80%, 53%);
+    text-decoration: none;
+    border-bottom: 1px solid hsl(175, 80%, 53%);
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    height: 18rem;
+    width: 400px;
+    box-shadow: 1px 1px 10px rgb(211, 211, 211);
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.comment img {
+    width: 5%;
+}
+
+.comment p {
+    margin: 1.5rem 0rem;
+    line-height: 1.5rem;
+}
+
+.CEO{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.CEO p {
+    margin: 0;
+}
+
+.CEO img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.name-position {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.name-position h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.banner-2 {
+    display: flex;
+    height: 60vh;
+    margin-top: 8rem;
+}
+
+.paragraph3 {
+    display: flex;
+    height: 40vh;
+    background-color: hsl(238, 22%, 44%);
+    margin: 0;
+    flex-direction: row;
+}
+
+.footer-1 {
+    margin: 6%;
+}
+
+.footer-2 {
+    width: 60%;
+    margin-top: 6rem;
+   
+}
+
+.text-footer h1 {
+    color: white;
+}
+
+.text-footer p {
+    color: white;
+    font-weight: 100;
+}
+
+.input-button-2 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-button2 input {
+    width: 45%;
+    height: 4.5vh;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.getstartedforfree {
+    margin-top: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    width: 15rem;
+    color: white;
+    height: 3.5rem;
+    cursor: pointer;
+    background-color: hsl(224, 92%, 75%);
+    box-shadow: 1px 5px 15px rgb(77, 77, 77);
+}
+
+.paragraph4 {
+    height: 50vh;
+    background-color: hsl(243, 87%, 12%);
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    padding: 6% 3% 3% 6%;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    
+}
+
+.phone-email {
+    margin-left: 7%;
+}
+
+.phone {
+    display: flex;
+}
+
+.phone img {
+    margin-right: 1.5rem;
+}
+
+.email {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.email img {
+    height: 16px;
+    margin: 0 1.5rem 2rem 0;
+}
+
+.phone-email p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    margin: 0%;
+    color: white;
+}
+
+.service {
+    margin-left: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service a {
+    margin: 0 224px 20px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+}
+
+.service a:hover {
+    opacity: 0.5;
+}
+
+.service-link {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.service-link2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-t-i i {
+    margin: 0 0.5rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    font-size: 17px;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+
+.f-t-i i:hover {
+    transition: 0.2s;
+    color: hsl(229, 64%, 63%);
+    border: 1px solid hsl(229, 64%, 63%);
+}
+
+.curve-mobile img {
+    display: none;
+}
+
+
+/*Mobile zone*/
+
+@media screen and (max-width:375px) {
+    /* Logo and Navbar*/
+    .container {
+        max-width: 375px;
+    }
+    .navbar-logo img {
+        height: 25px;
+        margin: 5%;
+    }
+    .navbar-logo {
+        margin: 0;
+    }
+    nav ul li {
+        margin: 1.5rem 1.5rem 0rem 0rem;
+        font-size: 12px;
+    }
+    /*paragraph 1*/
+    .row {
+        flex-direction: column-reverse;
+    }
+    .row-paragraph3 {
+        flex-direction: column;
+    }
+    .img-show img {
+        margin: 5rem 5rem 0rem 0rem;
+        height: 250px;
+    }
+    .banner-2 img {
+        height: 250px;
+    }
+    .col-1 {
+        margin: 0;
+    }
+    h1 {
+        text-align: center;
+        line-height: 2rem;
+        font-size: 25px;
+        font-family: Open Sans;
+        font-weight: bold;
+        margin: 2rem 1rem;
+    }
+    p {
+        font-weight: 100;
+        margin: 1rem;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.2rem;
+        letter-spacing: 1px;
+    }
+    .input-button {
+        display: flex;
+        margin-top: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-button input {
+        margin: 0;
+        width: 90%;
+        height: 45px;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .getstarted {
+        margin-left: 0;
+        margin-top: 1rem;
+        width: 90%;
+        height: 50px;
+        cursor: pointer;
+        background-color: hsl(221, 98%, 57%);
+    }
+    /*paragraph 2 */
+    .paragraph2 {
+        height: 120vh;
+    }
+    .curve-desktop img {
+        display: none;
+    }
+    .curve-mobile img {
+        display: block;
+        margin-top: 5rem;
+    }
+    .banner-2 {
+        height: 300px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .banner-2 img {
+        margin-top: 3rem;
+        height: 250px;
+    }
+    .text-para2 {
+        margin: 5rem 0rem 0rem 0rem;
+    }
+    .text-para2 h1 {
+        font-family: Raleway;
+        font-size: 16px;
+        margin: 2rem 1rem;
+    }
+    .text-para2 p {
+        text-align: start;
+        margin-bottom: 2rem;
+        letter-spacing: 0px;
+        line-height: 1.3rem;
+        opacity: 0.8;
+        margin: 1rem 1.5rem;
+    }
+    .link {
+        display: flex;
+        justify-content: center;
+    }
+    .link img {
+        height: 15px;
+    }
+    .link a {
+        font-size: 12px;
+    }
+    .comment-layout {
+        display: flex;
+        justify-content: center;
+        margin: 0rem 2.5rem;
+    }
+    .comment {
+        display: flex;
+        flex-direction: column;
+        height: 13rem;
+        width: 300px;
+        padding: 0.1rem;
+        position: relative;
+    }
+    .comment p {
+        font-size: 11px;
+        margin: 2.5rem 0.5rem 0rem 1.5rem;
+        opacity: 1;
+    }
+    .comment img {
+        position: absolute;
+        top: 15px;
+        left: 25px;
+    }
+    .CEO{
+        margin: 1.5rem;
+    }
+    .CEO p{
+        margin: 0;
+    }
+    .CEO img{
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 30px;
+        width:30px;
+       
+    }
+    .paragraph3 {
+        display: flex;
+        height: 45vh;
+        background-color: hsl(238, 22%, 44%);
+        margin: 0;
+        flex-direction: row;
+    }
+    .footer-1{
+        margin: 0;
+    }
+    .footer-1 h1{
+        font-family: 'Raleway', sans-serif;
+        margin-top: 4rem;
+        font-size: 20px;
+    }
+    .footer-1 p{
+        margin: 0 1.5rem;
+        font-weight:400;
+        font-family: Raleway;
+    }
+    .footer-2{
+        display: flex;
+        width: 100%;
+         margin: 0;
+        justify-content: center;
+    }
+    .input-button-2 input{
+      width: 100%;
+      height: 1rem;
+      border-radius: 1px;
+    }
+    .input-button-2 button{
+        margin-top: 0.5rem;
+        height: 2rem;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: hsl(221, 98%, 57%);;
+    }
+
+    .paragraph4 {
+        height: 82vh;
+    }
+    .logo {
+        display: flex;
+        width: 100%;
+        padding: 12%;
+    }
+    .logo img{
+        width: 75%;
+    }
+    .phone-email{
+        margin: 0;
+        
+    }
+    .contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+
+        
+    }
+    .service{
+        margin: 0;
+        flex-direction: column;
+    }
+    .service-link{
+        margin-bottom: 1.5rem;
+    }
+    .service-link2{
+        margin-bottom:1.5rem ;
+    }
+   .f-t-i{
+    display: flex;
+    justify-content: center;
+    margin-right: 2.5rem;
+   }
+    .f-t-i i {
+        margin: 0 0.2rem;
+        padding: 0.5rem;
+        font-size: 12px;
+        
+        
+    }
+}
